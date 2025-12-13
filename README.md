@@ -7,7 +7,7 @@
 ---
 ### Ссылки
 
-- id чат-бота: [@AIKnowledgeBaseHelperBot](https://t.me/AIKnowledgeBaseHelperBot)
+- [@AIKnowledgeBaseHelperBot](https://t.me/AIKnowledgeBaseHelperBot)
 - [n8n workflow](https://share-n8n.net/shared/UWzv5hgau4to)
 - [json backup-file](AIKnowledgeBaseHelper.json)
 
@@ -33,7 +33,7 @@
     - Полученный текст передаем дальше
   - Если у переданного файла другой формат, то выдаем сообщение о неверном формате файла
 4. Удаляем лишние пробелы из начала и конца строки
-5. Обрабатываем текст с помощью OpenRouter(amazon/nova-2-lite-v1:free):
+5. Обрабатываем текст с помощью OpenRouter([amazon/nova-2-lite-v1:free](https://openrouter.ai/amazon/nova-2-lite-v1:free/api)):
   - Определяем язык текста
   - Делаем суммаризацию (3-7 предложений)
   - Выделяем ключевые слова (5-10 слов)
@@ -71,4 +71,26 @@
 
 ### Пример работы
 
+- Первый запуск бота
+![](images/hello_bot_tg.png)
 
+---
+
+- Пример загрузки PDF файла
+![](images/1_example_tg.png)
+![](images/1_example_n8n.png)
+![](images/1_example_gs.png)
+
+---
+
+- Пример загрузки MD файла
+![](images/2_example_tg.png)
+![](images/2_example_n8n.png)
+![](images/2_example_gs.png)
+
+---
+
+- Пример загрузки DOCX файла
+![](images/3_example_tg.png)
+![](images/3_example_n8n.png)
+![](images/3_example_gs.png)
