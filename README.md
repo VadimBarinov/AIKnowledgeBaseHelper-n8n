@@ -7,7 +7,7 @@
 ---
 ### Ссылки
 
-- id чат-бота: @AIKnowledgeBaseHelperBot
+- id чат-бота: [@AIKnowledgeBaseHelperBot](https://t.me/AIKnowledgeBaseHelperBot)
 - [n8n workflow](https://share-n8n.net/shared/UWzv5hgau4to)
 - [json backup-file](AIKnowledgeBaseHelper.json)
 
@@ -70,3 +70,5 @@
 ---
 
 ### Пример работы
+
+
