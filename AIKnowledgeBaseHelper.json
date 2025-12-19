@@ -284,7 +284,7 @@
     },
     {
       "parameters": {
-        "model": "amazon/nova-2-lite-v1:free",
+        "model": "meta-llama/llama-4-scout",
         "options": {}
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
@@ -318,7 +318,7 @@
     {
       "parameters": {
         "promptType": "define",
-        "text": "=Дан текст: {{ $json.text }}\n\n1. Определить язык в данном сообщении.\n2. Сделай короткую выжимку из текста (3-7 предложений).\n3. Выдели 5-10 ключевых слов",
+        "text": "=Дан текст: {{ $json.text }}\n\n1. Определить язык в данном сообщении.\n2. Сделай короткую выжимку из текста (3-7 предложений).\n3. Выдели 5-10 ключевых слов\n\nДай ответ в JSON формате:\n\n{\n  \"language\": \"Russian\",\n  \"summary\": [\"1 sentence\", \"2 sentence\", \"3 sentence\"],\n  \"keywords\": [\"1 word\", \"2 word\", \"3 word\"]\n}",
         "hasOutputParser": true,
         "options": {}
       },
@@ -1060,11 +1060,11 @@
       ]
     }
   },
-  "active": true,
+  "active": false,
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "fef49a06-82f2-4878-a217-17208201b4e8",
+  "versionId": "2c1385d0-51c2-4dcf-b8fd-a9c31921a18f",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "0348ad8925d16d3920686995ba6b22d02135839c9a4118fb79fdcc5c827e2c2d"
